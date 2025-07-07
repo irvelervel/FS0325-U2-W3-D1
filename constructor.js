@@ -103,3 +103,16 @@ const peach = new CompletePerson(
 console.log(newMario)
 console.log(newLuigi)
 console.log(peach)
+
+console.log(peach.showCompleteName())
+
+// generiamo un array con dentro già un personaggio
+const arrayOfCharacters = [
+  new CompletePerson(
+    'Mario',
+    'Bros',
+    'Via dei Funghi 1',
+    'Mushroom Kingdom',
+    12345
+  ),
+]
